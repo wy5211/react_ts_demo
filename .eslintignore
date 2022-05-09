@@ -1,0 +1,10 @@
+﻿# dependencies
+node_modules
+# production
+dist
+/.vscode
+.github
+
+
+# scripts
+# webpack.config.js
