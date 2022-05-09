@@ -247,7 +247,7 @@
   dependencies:
     "@babel/types" "^7.16.7"
 
-"@babel/helper-validator-identifier@^7.16.7":
+"@babel/helper-validator-identifier@^7.15.7", "@babel/helper-validator-identifier@^7.16.7":
   version "7.16.7"
   resolved "https://registry.npmmirror.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.16.7.tgz#e8c602438c4a8195751243da9031d1607d247cad"
   integrity sha512-hsEnFemeiW4D08A5gUAZxLBTXpZ39P+a+DGDsHw1yxqyQ/jzFEnxf5uTEGp+3bzAbNOxU1paTgYS4ECU/IgfDw==
@@ -2985,7 +2985,7 @@ buffer-from@^1.0.0:
   resolved "https://registry.npmmirror.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
-builtin-modules@^3.1.0:
+builtin-modules@^3.0.0, builtin-modules@^3.1.0:
   version "3.2.0"
   resolved "https://registry.npmmirror.com/builtin-modules/-/builtin-modules-3.2.0.tgz#45d5db99e7ee5e6bc4f362e008bf917ab5049887"
   integrity sha512-lGzLKcioL90C7wMczpkY0n/oART3MbBa8R9OFGE1rJxoVI86u4WAGfEk8Wjv10eKSyTHVGkSo3bvBylCEtk7LA==
@@ -3150,7 +3150,7 @@ ci-info@^2.0.0:
   resolved "https://registry.npmmirror.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
 
-ci-info@^3.2.0:
+ci-info@^3.2.0, ci-info@^3.3.0:
   version "3.3.0"
   resolved "https://registry.npmmirror.com/ci-info/-/ci-info-3.3.0.tgz#b4ed1fb6818dea4803a55c623041f9165d2066b2"
   integrity sha512-riT/3vI5YpVH6/qomlDnJow6TBee2PBKSEpx3O32EGPYbWGIRsIlGRms3Sm74wYE1JMo8RnO04Hb12+v1J5ICw==
@@ -4302,6 +4302,26 @@ eslint-plugin-unicorn@^20.0.0:
     reserved-words "^0.1.2"
     safe-regex "^2.1.1"
     semver "^7.3.2"
+
+eslint-plugin-unicorn@^42.0.0:
+  version "42.0.0"
+  resolved "https://registry.npmmirror.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-42.0.0.tgz#47d60c00c263ad743403b052db689e39acbacff1"
+  integrity sha512-ixBsbhgWuxVaNlPTT8AyfJMlhyC5flCJFjyK3oKE8TRrwBnaHvUbuIkCM1lqg8ryYrFStL/T557zfKzX4GKSlg==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.15.7"
+    ci-info "^3.3.0"
+    clean-regexp "^1.0.0"
+    eslint-utils "^3.0.0"
+    esquery "^1.4.0"
+    indent-string "^4.0.0"
+    is-builtin-module "^3.1.0"
+    lodash "^4.17.21"
+    pluralize "^8.0.0"
+    read-pkg-up "^7.0.1"
+    regexp-tree "^0.1.24"
+    safe-regex "^2.1.1"
+    semver "^7.3.5"
+    strip-indent "^3.0.0"
 
 eslint-rule-composer@^0.3.0:
   version "0.3.0"
@@ -5457,6 +5477,13 @@ is-buffer@^2.0.0:
   version "2.0.5"
   resolved "https://registry.npmmirror.com/is-buffer/-/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
   integrity sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==
+
+is-builtin-module@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmmirror.com/is-builtin-module/-/is-builtin-module-3.1.0.tgz#6fdb24313b1c03b75f8b9711c0feb8c30b903b00"
+  integrity sha512-OV7JjAgOTfAFJmHZLvpSTb4qi0nIILDV1gWPYDnDJUTNFM5aGlRAhk4QcT8i7TuAleeEV5Fdkqn3t4mS+Q11fg==
+  dependencies:
+    builtin-modules "^3.0.0"
 
 is-callable@^1.1.4, is-callable@^1.2.4:
   version "1.2.4"
@@ -8268,7 +8295,7 @@ regex-parser@^2.2.11:
   resolved "https://registry.npmmirror.com/regex-parser/-/regex-parser-2.2.11.tgz#3b37ec9049e19479806e878cabe7c1ca83ccfe58"
   integrity sha512-jbD/FT0+9MBU2XAZluI7w2OBs1RBi6p9M83nkoZayQXXU9e8Robt69FcZc7wU4eJD/YFTjn1JdCk3rbMJajz8Q==
 
-regexp-tree@^0.1.21, regexp-tree@~0.1.1:
+regexp-tree@^0.1.21, regexp-tree@^0.1.24, regexp-tree@~0.1.1:
   version "0.1.24"
   resolved "https://registry.npmmirror.com/regexp-tree/-/regexp-tree-0.1.24.tgz#3d6fa238450a4d66e5bc9c4c14bb720e2196829d"
   integrity sha512-s2aEVuLhvnVJW6s/iPgEGK6R+/xngd2jNQ+xy4bXNDKxZKJH6jpPHY6kVeVv1IeLCHgswRj+Kl3ELaDjG6V1iw==
