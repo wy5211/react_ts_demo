@@ -140,5 +140,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@umijs/fabric": "^2.10.2"
   }
 }
