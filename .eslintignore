@@ -4,7 +4,5 @@ node_modules
 dist
 /.vscode
 .github
-
-
-# scripts
-# webpack.config.js
+scripts
+config/**
