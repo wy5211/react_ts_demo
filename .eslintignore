@@ -1,8 +1,0 @@
-﻿# dependencies
-node_modules
-# production
-dist
-/.vscode
-.github
-scripts
-config/**

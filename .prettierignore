@@ -1,7 +1,2 @@
 node_modules
 **/*.svg
-package.json
-**/dist
-**/lib
-**/es
-config/**
